@@ -1,0 +1,18 @@
+body{
+	background-image: linear-gradient(rgba(186, 222, 42, 0.45),rgba(30, 32, 23, 0.45)), url(yes.jpeg);
+
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	/*background: linear-gradient(rgba(0,185,255,0.45),rgba(0,185,255,0.45));*/
+	color:yellow;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.noo{
+	/*background-image: none;*/
+	/*color:purple;*/
+	width:300px;
+}
+
