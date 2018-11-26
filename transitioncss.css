@@ -1,0 +1,86 @@
+.container{
+	margin-left: 100px;
+}
+
+.container1 {
+  margin-bottom:10px;
+  height:250px;
+  width: 250px;
+  border-style: solid;
+  border-color: salmon;
+}
+
+.container1:hover .circle, .container1:hover .circle0, .container1:hover .circle1, .container1:hover .circle2, .container1:hover .circle3, .container1:hover .circle4, .container1:hover .circle5 {
+  transform: translateX(200px);
+}
+
+.circle, .circle0, .circle1, .circle2, .circle3, .circle4, .circle5 {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+} 
+
+.circle0 {
+  background: PaleTurquoise;
+  transition: all 1.5s linear;
+
+} 
+
+.circle1 {
+  background: salmon;
+  transition: all 1.5s ease;
+}
+
+.circle2 {
+  background: lightskyblue;
+  transition: all 1.5s ease-in;
+}
+
+.circle3 {
+  background: khaki;
+  transition: all 1.5s ease-out;
+}
+
+.circle4 {
+  background: mediumturquoise;
+  transition: all 1.5s ease-in-out;
+}
+
+.circle5 {
+  background: thistle;
+  transition: all 1.5s cubic-bezier(0,1,.98,0); 
+}
+
+
+.container2 {
+  height:125px;
+  width: 375px;
+  border-style: dotted;
+  border-color: salmon;
+}
+
+.box {
+  background: steelblue;
+  border-radius: 5px;
+  display: inline-block;
+  height: 80px;
+  margin: 20px;
+  width: 80px;
+}
+
+.container2:hover .box {
+  transform: scale(1.4);
+}
+
+.box1 {
+  transition: all 1.3s;
+}
+
+.box2 {
+  transition: all 1.3s 0.5s;
+}
+
+.box3 {
+  transition: all 1.3s 1s;
+ }
